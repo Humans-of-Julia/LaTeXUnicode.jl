@@ -1,4 +1,4 @@
-module LaTeXt
+module LaTeXUniCode
 
 using CSV
 using DataFrames

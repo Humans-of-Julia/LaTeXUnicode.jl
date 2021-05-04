@@ -1,6 +1,6 @@
-using LaTeXt
+using LaTeXUniCode
 using Test
 
-@testset "LaTeXt.jl" begin
+@testset "LaTeXUniCode.jl" begin
     # Write your tests here.
 end
