@@ -3,10 +3,22 @@ module LaTeXUniCode
 using CSV
 using DataFrames
 
-export df
+export translationary
 
-# From http://milde.users.sourceforge.net/LUCR/Math/data/unimathsymbols.txt
-df = DataFrame(CSV.File("data/unimathsymbols.txt"; comment="#", header = false, delim = '^'))
-rename!(df, [:code_point, :character, :latex, :class, :category, :requirements, :conflicts, :description])
+function build()
+    # From http://milde.users.sourceforge.net/LUCR/Math/data/unimathsymbols.txt
+    path = joinpath(dirname(dirname(pathof(LaTeXUniCode))), "data", "unimathsymbols.txt")
+    df = DataFrame(CSV.File(path; comment="#", header = false, delim = '^'))
+    rename!(df,
+        [
+            :code_point, :character, :latex, :class,
+            :category, :requirements, :conflicts, :description
+        ]
+    )
+
+    return df
+end
+
+const translationary = build()
 
 end
