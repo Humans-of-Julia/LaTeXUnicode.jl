@@ -1,4 +1,4 @@
-module LaTeXUniCode
+module LaTeXUnicode
 
 using CSV
 using DataFrames
@@ -7,7 +7,7 @@ export translationary
 
 function build()
     # From http://milde.users.sourceforge.net/LUCR/Math/data/unimathsymbols.txt
-    path = joinpath(dirname(dirname(pathof(LaTeXUniCode))), "data", "unimathsymbols.txt")
+    path = joinpath(dirname(dirname(pathof(LaTeXUnicode))), "data", "unimathsymbols.txt")
     df = DataFrame(CSV.File(path; comment="#", header = false, delim = '^'))
     rename!(df,
         [

@@ -62,9 +62,9 @@ jobs:
       - run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using LaTeXUniCode
-            DocMeta.setdocmeta!(LaTeXUniCode, :DocTestSetup, :(using LaTeXUniCode); recursive=true)
-            doctest(LaTeXUniCode)'
+            using LaTeXUnicode
+            DocMeta.setdocmeta!(LaTeXUnicode, :DocTestSetup, :(using LaTeXUnicode); recursive=true)
+            doctest(LaTeXUnicode)'
       - run: julia --project=docs docs/make.jl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

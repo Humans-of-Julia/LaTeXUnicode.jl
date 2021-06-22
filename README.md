@@ -1,9 +1,9 @@
-# LaTeXUniCode
+# LaTeXUnicode
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://Humans-of-Julia.github.io/LaTeXUniCode.jl/stable)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://Humans-of-Julia.github.io/LaTeXUniCode.jl/dev)
-[![Build Status](https://github.com/Humans-of-Julia/LaTeXUniCode.jl/workflows/CI/badge.svg)](https://github.com/Humans-of-Julia/LaTeXUniCode.jl/actions)
-[![codecov](https://codecov.io/gh/Humans-of-Julia/LaTeXUniCode.jl/branch/main/graph/badge.svg?token=xVp0ygx34J)](https://codecov.io/gh/Humans-of-Julia/LaTeXUniCode.jl)
+[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://Humans-of-Julia.github.io/LaTeXUnicode.jl/stable)
+[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://Humans-of-Julia.github.io/LaTeXUnicode.jl/dev)
+[![Build Status](https://github.com/Humans-of-Julia/LaTeXUnicode.jl/workflows/CI/badge.svg)](https://github.com/Humans-of-Julia/LaTeXUnicode.jl/actions)
+[![codecov](https://codecov.io/gh/Humans-of-Julia/LaTeXUnicode.jl/branch/main/graph/badge.svg?token=xVp0ygx34J)](https://codecov.io/gh/Humans-of-Julia/LaTeXUnicode.jl)
 [![Code Style: Blue](https://img.shields.io/badge/code%20style-blue-4495d1.svg)](https://github.com/invenia/BlueStyle)
 [![ColPrac: Contributor's Guide on Collaborative Practices for Community Packages](https://img.shields.io/badge/ColPrac-Contributor's%20Guide-blueviolet)](https://github.com/SciML/ColPrac)
 [![Discord chat](https://img.shields.io/discord/762167454973296644.svg?logo=discord&colorB=7289DA&style=flat-square)](https://discord.gg/7KC28q98nP)

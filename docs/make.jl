@@ -1,16 +1,16 @@
-using LaTeXUniCode
+using LaTeXUnicode
 using Documenter
 
-DocMeta.setdocmeta!(LaTeXUniCode, :DocTestSetup, :(using LaTeXUniCode); recursive=true)
+DocMeta.setdocmeta!(LaTeXUnicode, :DocTestSetup, :(using LaTeXUnicode); recursive=true)
 
 makedocs(;
-    modules=[LaTeXUniCode],
+    modules=[LaTeXUnicode],
     authors="Jean-Francois Baffier",
-    repo="https://github.com/Humans-of-Julia/LaTeXUniCode.jl/blob/{commit}{path}#{line}",
-    sitename="LaTeXUniCode.jl",
+    repo="https://github.com/Humans-of-Julia/LaTeXUnicode.jl/blob/{commit}{path}#{line}",
+    sitename="LaTeXUnicode.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://Humans-of-Julia.github.io/LaTeXUniCode.jl",
+        canonical="https://Humans-of-Julia.github.io/LaTeXUnicode.jl",
         assets=String[],
     ),
     pages=[
@@ -19,6 +19,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/Humans-of-Julia/LaTeXUniCode.jl",
+    repo="github.com/Humans-of-Julia/LaTeXUnicode.jl",
     devbranch="main",
 )

@@ -1,14 +1,14 @@
 ```@meta
-CurrentModule = LaTeXUniCode
+CurrentModule = LaTeXUnicode
 ```
 
-# LaTeXUniCode
+# LaTeXUnicode
 
-Documentation for [LaTeXUniCode](https://github.com/Humans-of-Julia/LaTeXUniCode.jl).
+Documentation for [LaTeXUnicode](https://github.com/Humans-of-Julia/LaTeXUnicode.jl).
 
 ```@index
 ```
 
 ```@autodocs
-Modules = [LaTeXUniCode]
+Modules = [LaTeXUnicode]
 ```
